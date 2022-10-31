@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Staatliches&display=swap');
+
+p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	font-family: 'Staatliches', sans-serif;
+	font-size: 5rem;
+	color: #fff;
+
+	transition: all 500ms ease;
+	user-select: none;
+}
+
+p:hover {
+	color: transparent;
+	text-shadow: -3px -2px 0 #00f2ea, 3px 2px 0 #ff0050;
+}
