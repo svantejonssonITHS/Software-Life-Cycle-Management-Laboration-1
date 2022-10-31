@@ -18,3 +18,14 @@
 	color: transparent;
 	text-shadow: -3px -2px 0 #00f2ea, 3px 2px 0 #ff0050;
 }
+
+@media screen and (max-width: 800px) {
+	.glitch {
+		text-align: center;
+	}
+
+	.glitch:focus {
+		color: transparent;
+		text-shadow: -3px -2px 0 #00f2ea, 3px 2px 0 #ff0050;
+	}
+}
