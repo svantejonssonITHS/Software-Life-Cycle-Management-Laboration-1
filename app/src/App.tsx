@@ -6,7 +6,7 @@ import Version from './components/Version/Version';
 function App() {
 	return (
 		<>
-			<Glitch text="Hello World!" />
+			<Glitch text="Hello School!" />
 			<Version versionNumber={version} />
 		</>
 	);
