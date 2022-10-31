@@ -1,5 +1,5 @@
 import './Glitch.css';
 
 export default function ({ text }: { text: string }) {
-	return <p>{text}</p>;
+	return <p className="glitch">{text}</p>;
 }

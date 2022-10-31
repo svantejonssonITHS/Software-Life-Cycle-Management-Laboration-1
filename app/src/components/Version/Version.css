@@ -1,0 +1,9 @@
+/* Position absolute bottom corner */
+
+.version {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	margin: 0 1rem 1rem 0;
+}
